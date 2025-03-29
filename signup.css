@@ -6,6 +6,10 @@
 
 body{
     font-family: poppins;
+    background-image: url(img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 .form{
@@ -100,9 +104,6 @@ body{
 
 }
 
-body{
-    background-image: url(img/luel.jpg);
-}
 .form #box{
     margin-left: -46%;
 }
