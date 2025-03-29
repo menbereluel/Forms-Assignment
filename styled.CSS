@@ -1,0 +1,9 @@
+.outer-div {
+    border: 1px dotted rgb(10, 10, 10);
+    padding: 20px;
+}
+.inner-div {
+    border: 1px solid rgb(100, 235, 240);
+    margin: 10%;
+    padding: 10px;
+    background-color: rgb(221, 171, 219);}
