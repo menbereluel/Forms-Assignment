@@ -1,8 +1,17 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Light.ttf);
+}
+
+body{
+    font-family: poppins;
+}
+
 .form{
     border:solid 1px grey;
     width:20%;
     height: 80;
-    padding:30px;
+    padding: 0px 30px;
     border-radius: 5px;
     margin:6px auto;
     background-color: white;
@@ -61,9 +70,29 @@
     padding:20px;
 }
 .icons{
-    gap: 100px;
+    gap: 50px;
     display: flex;
     width: 200%;
+    margin-left: 7%;
+}
+
+.google{
+    display: flex;
+    border: solid 1px rgb(211, 204, 204);
+    width: 13%;
+    height: 1%;
+    padding: 0% 2%;
+    border-radius: 8px;
+    
+}
+.facebook{
+    display: flex;
+    border: solid 1px rgb(211, 204, 204);
+    width: 13%;
+    height: 1%;
+    padding: 0% 2%;
+    border-radius: 8px;
+
 }
 body{
     background-image: url(img/luel.jpg);
